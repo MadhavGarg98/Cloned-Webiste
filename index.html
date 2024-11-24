@@ -13,25 +13,25 @@
     <!-- Top section for Navigation and Title section -->
     <section class="top">
         <nav>
-            <div class="nav-bar">
+            <div class="nav-container">
                 <img src="assets/NetflixLogoSvg.png" alt="Netflix Logo" class="logo">
-                <ul>
-                    <li><strong>Start</strong></li>
-                    <li>Shows</li>
-                    <li>Movies</li>
-                    <li>New</li>
-                    <li>My List</li>
-                </ul>
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><img src="assets/Search.png" alt="search"></li>
-                    <li><img src="assets/GiftBox.png" alt="gift"></li>
-                    <li><img src="assets/NotificationBell.png" alt="bell"></li>
-                    <li><img src="assets/face.png" alt="face"></li>
-                    <li><img src="assets/DownArrow.png" alt="dropdown"></li>
-
-                </ul>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">☰</button>
+                <div class="nav-links">
+                    <ul class="main-nav">
+                        <li><strong>Start</strong></li>
+                        <li>Shows</li>
+                        <li>Movies</li>
+                        <li>New</li>
+                        <li>My List</li>
+                    </ul>
+                    <ul class="menu-nav">
+                        <li><img class="arp" src="assets/Search.png" alt="search"></li>
+                        <li><img src="assets/GiftBox.png" alt="gift"></li>
+                        <li><img src="assets/NotificationBell.png" alt="bell"></li>
+                        <li><img src="assets/face.png" alt="face"></li>
+                        <li><img src="assets/DownArrow.png" alt="dropdown"></li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <div class="title">
@@ -186,5 +186,4 @@
         </div>
     </footer>
 </body>
-
 </html>
